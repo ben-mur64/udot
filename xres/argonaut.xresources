@@ -1,6 +1,6 @@
 ! st Settings
 *.font: mono:pixelsize=15
-*.alpha: 0.9
+*.alpha: 1.0
 
 *.foreground:  #fffaf4
 *.background:  #0e1019
