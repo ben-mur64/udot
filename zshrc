@@ -30,9 +30,9 @@ alias ll="ls -al"
 
 # Config files
 alias cfi="vim ~/.config/i3/config"
-alias cfx="vim ~/udot/Xresources"
-alias cfb="vim ~/udot/bashrc"
-alias cfz="vim ~/udot/zshrc"
+alias cfx="vim ~/.Xresources"
+alias cfb="vim ~/.bashrc"
+alias cfz="vim ~/.zshrc"
 alias cfv="vim ~/udot/vim/.vimrc"
 
 # Popular folders

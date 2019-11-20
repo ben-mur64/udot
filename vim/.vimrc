@@ -86,11 +86,11 @@ set relativenumber
 " sets UTF8 encoding
 set encoding=utf-8
 
-" number of visual spaces per TAB
+" default spacing
 set tabstop=4
-
-" number of space in TAB when editing
 set softtabstop=4
+set shiftwidth=4
+
 
 " tabs are spaces
 set expandtab
