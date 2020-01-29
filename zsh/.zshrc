@@ -1,5 +1,4 @@
 # Flex on Ubuntu Users
-#echo ' '
 neofetch
 
 # Lines configured by zsh-newuser-install
@@ -40,7 +39,7 @@ alias cfz="vim ~/.zshrc"
 alias cfv="vim ~/.vimrc"
 
 # Popular folders
-alias hw="cd ~/Documents/classes/fall-2019/"
-alias hwp="cd ~/Documents/projects/"
+alias hw="cd ~/Documents/classes/homework-winter-2020/"
+alias hwp="cd ~/Documents/projects/winter-2020/"
 
 PROMPT='%B%F{red}[%f%F{cyan}bpm%f%F{yellow}@%f%F{green}%m%f %F{blue}%1~%f%F{red}]%f$%b '
