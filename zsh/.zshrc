@@ -1,3 +1,7 @@
+# Flex on Ubuntu Users
+#echo ' '
+neofetch
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
@@ -16,9 +20,9 @@ compinit
 # Helpful Alias Collection #
 
 # Display management
-alias bright="xrandr --output eDP-1 --brightness"
-alias ahdmi="xrandr --output eDP-1 --auto --output HDMI-1 --auto --right-of eDP-1"
-alias dhdmi="xrandr --output eDP-1 --auto --output HDMI-1 --off"
+alias bright="xrandr --output eDP1 --brightness"
+alias ahdmi="xrandr --output eDP1 --auto --output HDMI-1 --auto --right-of eDP-1"
+alias dhdmi="xrandr --output eDP1 --auto --output HDMI-1 --off"
 
 # Server Connections #
 alias goprod="ssh -p 409 benmur96@eceprod.byu.edu"
@@ -33,7 +37,7 @@ alias cfi="vim ~/.config/i3/config"
 alias cfx="vim ~/.Xresources"
 alias cfb="vim ~/.bashrc"
 alias cfz="vim ~/.zshrc"
-alias cfv="vim ~/udot/vim/.vimrc"
+alias cfv="vim ~/.vimrc"
 
 # Popular folders
 alias hw="cd ~/Documents/classes/fall-2019/"
