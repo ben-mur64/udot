@@ -4,28 +4,19 @@
 set nocompatible
 filetype off
 
-" set the runtime path to inclue Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-"let Vundle manage Vundle
-Plugin 'gmarik/Vundle.vim'
-
-" file tree browsing
-Plugin 'scrooloose/nerdtree'
-
-" tabs for the file tree
-Plugin 'jistr/vim-nerdtree-tabs'
-
-" better syntax highlighting
-Plugin 'sheerun/vim-polyglot'
-
-" better markdown editing
-Plugin 'gabrielelana/vim-markdown'
-
-" All plugins must be before this line
-call vundle#end()
+" run pathogen
+execute pathogen#infect()
 filetype plugin indent on
+
+"-----------------------Plugin List-----------------------"
+"
+" Nerdtree - Better filetree
+"
+" Vim-Polyglot - Better/wider syntax highlighting
+"
+" Vim-markdown - Better markdown editing
+"
+" Dracula - Colorscheme of choice
 
 "-------------------Plugin-Specific------------------------"
 
@@ -33,15 +24,12 @@ filetype plugin indent on
 " ctrl-n opens filetree
 map <C-n> :NERDTreeToggle<CR>
 
-" Airline "
-" better tabline
-let g:airline#extensions#tabline#enabled = 1
-
 " Colors "
 " colorscheme enabling
+let g:dracula_colorterm=0
+colorscheme dracula
 syntax enable
 syntax on
-set background=dark
 
 "------------------Filetype-Specific-----------------------"
 
@@ -90,7 +78,6 @@ set encoding=utf-8
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-
 
 " tabs are spaces
 set expandtab
