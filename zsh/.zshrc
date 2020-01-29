@@ -20,9 +20,9 @@ compinit
 # Helpful Alias Collection #
 
 # Display management
-alias bright="xrandr --output eDP1 --brightness"
-alias ahdmi="xrandr --output eDP1 --auto --output HDMI-1 --auto --right-of eDP-1"
-alias dhdmi="xrandr --output eDP1 --auto --output HDMI-1 --off"
+alias lbright="xrandr --output eDP1 --brightness"
+alias lahdmi="xrandr --output eDP1 --auto --output HDMI-1 --auto --right-of eDP-1"
+alias ldhdmi="xrandr --output eDP1 --auto --output HDMI-1 --off"
 
 # Server Connections #
 alias goprod="ssh -p 409 benmur96@eceprod.byu.edu"
