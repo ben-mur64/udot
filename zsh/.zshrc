@@ -10,36 +10,21 @@ unsetopt beep
 bindkey -v
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/benmur96/.zshrc'
+zstyle :compinstall filename '/home/bpm/.zshrc'
 
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+
 # Helpful Alias Collection #
-
-# Display management
-alias lbright="xrandr --output eDP1 --brightness"
-alias lahdmi="xrandr --output eDP1 --auto --output HDMI-1 --auto --right-of eDP-1"
-alias ldhdmi="xrandr --output eDP1 --auto --output HDMI-1 --off"
-
-# Server Connections #
-alias goprod="ssh -p 409 benmur96@eceprod.byu.edu"
-alias gostg="ssh -p 409 benmur96@ecestg.byu.edu"
-alias godev="ssh -p 409 benmur96@ecedev.byu.edu"
 
 # ll does better ls
 alias ll="ls -al"
 
 # Config files
-alias cfi="vim ~/.config/i3/config"
-alias cfx="vim ~/.Xresources"
 alias cfb="vim ~/.bashrc"
 alias cfz="vim ~/.zshrc"
 alias cfv="vim ~/.vimrc"
-
-# Popular folders
-alias hw="cd ~/Documents/classes/homework-winter-2020/"
-alias hwp="cd ~/Documents/projects/winter-2020/"
 
 PROMPT='%B%F{red}[%f%F{cyan}bpm%f%F{yellow}@%f%F{green}%m%f %F{blue}%1~%f%F{red}]%f$%b '
