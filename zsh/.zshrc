@@ -1,5 +1,7 @@
 # Flex on Ubuntu Users
-neofetch
+#neofetch
+clear
+cat ~/welcome.txt
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -25,6 +27,8 @@ alias ll="ls -al"
 # Config files
 alias cfb="vim ~/.bashrc"
 alias cfz="vim ~/.zshrc"
-alias cfv="vim ~/.vimrc"
+alias cfv="vim ~/.vim/.vimrc"
+alias dc="sudo docker-compose"
+alias ytmp3="youtube-dl -f bestaudio"
 
-PROMPT='%B%F{red}[%f%F{cyan}bpm%f%F{yellow}@%f%F{green}%m%f %F{blue}%1~%f%F{red}]%f$%b '
+PROMPT='%B%F{blue}[%f%F{red}bpm%f%F{green}@%f%F{yellow}%m%f %F{cyan}%1~%f%F{blue}]%f$%b '
