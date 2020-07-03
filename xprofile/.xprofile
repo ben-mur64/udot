@@ -1,0 +1,8 @@
+#!/bin/sh
+
+[ -f "$HOME/.config/env" ] && source "$HOME/.config/env"
+
+picom &         # Compositor for transparency
+dunst &         # Notification daemon
+unclutter &     # Removes mouse after certain time
+xwallpaper --center /home/bpm/.config/wallpaper.png
