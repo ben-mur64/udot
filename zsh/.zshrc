@@ -1,6 +1,3 @@
-# Flex on Ubuntu Users
-neofetch
-
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
@@ -30,6 +27,10 @@ alias godev="ssh -p 409 benmur96@ecedev.byu.edu"
 
 # ll does better ls
 alias ll="ls -al"
+alias ls="exa"
+
+# Battery lookup
+alias bl="cat /sys/class/power_supply/BAT0/capacity"
 
 # Config files
 alias cfi="vim ~/.config/i3/config"

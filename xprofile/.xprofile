@@ -5,4 +5,4 @@
 picom &         # Compositor for transparency
 dunst &         # Notification daemon
 unclutter &     # Removes mouse after certain time
-xwallpaper --center /home/bpm/.config/wallpaper.png
+setbg /home/bpm/media/pics/wallpaper/
