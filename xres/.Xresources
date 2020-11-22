@@ -1,6 +1,6 @@
 ! st Settings
-*.font: mono:pixelsize=15
-*.alpha: 0.9
+*.font: hack:pixelsize=14:antialiasing=true:hinting=true
+*.alpha: 0.8
 
 ! Dracula Xresources palette
 *.foreground: #F8F8F2

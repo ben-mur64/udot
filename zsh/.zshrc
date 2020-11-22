@@ -1,7 +1,7 @@
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=10000
+SAVEHIST=10000
 setopt autocd extendedglob notify
 unsetopt beep
 bindkey -v
@@ -27,7 +27,7 @@ alias godev="ssh -p 409 benmur96@ecedev.byu.edu"
 
 # ll does better ls
 alias ll="ls -al"
-alias ls="exa"
+alias ls="exa --group-directories-first"
 
 # Battery lookup
 alias bl="cat /sys/class/power_supply/BAT0/capacity"
@@ -35,13 +35,14 @@ alias bl="cat /sys/class/power_supply/BAT0/capacity"
 # Config files
 alias cfi="vim ~/.config/i3/config"
 alias cfx="vim ~/.Xresources"
-alias cfb="vim ~/.bashrc"
+alias cfb="vim ~/.config/bspwm/bspwmrc"
+alias cfs="vim ~/.config/sxhkd/sxhkdrc"
 alias cfz="vim ~/.zshrc"
 alias cfv="vim ~/.vimrc"
 alias cfn="vim ~/.ncmpcpp/config"
 
 # Popular folders
-alias hw="cd ~/Documents/classes/homework-winter-2020/"
+alias hw="cd /data/Documents/classes/fall-2020/"
 alias hwp="cd ~/Documents/projects/winter-2020/"
 
 PROMPT='%B%F{red}[%f%F{cyan}bpm%f%F{yellow}@%f%F{green}%m%f %F{blue}%1~%f%F{red}]%f$%b '
