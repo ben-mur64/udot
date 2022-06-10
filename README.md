@@ -8,4 +8,4 @@ After months of maintaining three different Arch Linux rices across three differ
 
 ## Branches
 
-* Three different branches are available for use. The master branch is for my laptop, and the desktop and server branches are what you would imagine.
+Three different branches are available for use. The master branch is for my laptop, and the desktop and server branches are what you would imagine.
